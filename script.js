@@ -1,7 +1,12 @@
+const GA_MEASUREMENT_ID = "G-DYEK9HXNW5";
+const COOKIE_CONSENT_KEY = "analyticsConsent";
+
 const translations = {
   en: {
-    metaTitle: "DeVArroyo | Víctor Arroyo · Educational app development",
-    metaDescription: "DeVArroyo, Víctor Arroyo professional website. Cross-platform app development, educational software, Unity, C#, SQL, web technologies, languages and applied artificial intelligence.",
+    metaTitle: "Víctor Arroyo | Cross-platform app developer",
+    metaDescription:
+      "Professional website of Víctor Arroyo. Cross-platform app development, educational software, Unity, C#, SQL, web technologies, languages and applied artificial intelligence.",
+
     "aria.mainNav": "Main navigation",
     "aria.home": "Go to home",
     "aria.hideNav": "Hide navigation menu",
@@ -11,11 +16,13 @@ const translations = {
     "aria.morsShots": "View MorS screenshots",
     "aria.nextLexicaz": "View next LexicAZ screenshot",
     "aria.nextMors": "View next MorS screenshot",
+
     "alt.logo": "Víctor Arroyo personal logo",
     "alt.lexicazLogo": "LexicAZ logo or preview",
     "alt.lexicazShot": "LexicAZ screenshot",
     "alt.morsLogo": "MorS logo or preview",
     "alt.morsShot": "MorS screenshot",
+
     "langButton.enAria": "View website in English",
     "langButton.esAria": "Ver la web en español",
     "langButton.enTitle": "English",
@@ -31,10 +38,14 @@ const translations = {
 
     "hero.tag": "Cross-platform development · Digital education · Applied AI",
     "hero.title": "Applications that turn learning into an experience",
-    "hero.subtitle": "I am Víctor Arroyo, a cross-platform app developer interested in creating educational software, interactive interfaces and digital tools that make learning clearer, more practical and more accessible.",
-    "hero.text": "I am interested in combining programming, user experience design, application logic, databases and artificial intelligence to build useful projects. Through apps such as LexicAZ and MorS, I develop practical solutions while continuing to strengthen my skills in Unity, C#, SQL, mobile development and web technologies.",
+    "hero.subtitle":
+      "I am Víctor Arroyo, a cross-platform app developer interested in creating educational software, interactive interfaces and digital tools that make learning clearer, more practical and more accessible.",
+    "hero.text":
+      "I am interested in combining programming, user experience design, application logic, databases and artificial intelligence to build useful projects. Through apps such as LexicAZ and MorS, I develop practical solutions while continuing to strengthen my skills in Unity, C#, SQL, mobile development and web technologies.",
+
     "chip.educationalApps": "Educational apps",
     "chip.appliedAi": "Applied AI",
+
     "button.viewApps": "View apps",
     "button.value": "What I can offer",
     "button.cv": "Download CV",
@@ -44,34 +55,44 @@ const translations = {
     "profile.tech": "technologies",
 
     "about.kicker": "Professional profile",
-    "about.p1": "I am Víctor Arroyo, a cross-platform app developer trained in Multiplatform Application Development. I am interested in creating useful, accessible software with a clear user experience, especially in projects related to learning, education and artificial intelligence.",
-    "about.p2": "My practical experience is based on my own projects, such as LexicAZ, an app for learning multilingual vocabulary, and MorS, an interactive application for learning Morse code through a visual node and press-based system.",
-    "about.p3": "I am currently looking for developer opportunities where I can keep learning, contribute to real projects and bring a practical, curious mindset focused on continuous improvement.",
+    "about.p1":
+      "I am Víctor Arroyo, a cross-platform app developer trained in Multiplatform Application Development. I am interested in creating useful, accessible software with a clear user experience, especially in projects related to learning, education and artificial intelligence.",
+    "about.p2":
+      "My practical experience is based on my own projects, such as LexicAZ, an app for learning multilingual vocabulary, and MorS, an interactive application for learning Morse code through a visual node and press-based system.",
+    "about.p3":
+      "I am currently looking for developer opportunities where I can keep learning, contribute to real projects and bring a practical, curious mindset focused on continuous improvement.",
 
     "value.kicker": "Professional value",
-    "value.intro": "My goal is to grow as a developer by creating solutions with real value: clear, interactive applications designed to make technology support learning.",
+    "value.intro":
+      "My goal is to grow as a developer by creating solutions with real value: clear, interactive applications designed to make technology support learning.",
     "value.card1.title": "Educational app development",
-    "value.card1.text": "I design and develop learning-oriented applications, combining visual interaction, application logic and a simple user experience.",
+    "value.card1.text":
+      "I design and develop learning-oriented applications, combining visual interaction, application logic and a simple user experience.",
     "value.card2.title": "Functional prototypes",
-    "value.card2.text": "I turn ideas into prototypes that make it possible to test mechanics, validate features and transform concepts into real digital products.",
+    "value.card2.text":
+      "I turn ideas into prototypes that make it possible to test mechanics, validate features and transform concepts into real digital products.",
     "value.card3.title": "Learning and applied AI",
-    "value.card3.text": "I am interested in applying artificial intelligence and interactive design to create more personalized, useful tools adapted to new ways of learning.",
+    "value.card3.text":
+      "I am interested in applying artificial intelligence and interactive design to create more personalized, useful tools adapted to new ways of learning.",
 
     "projects.kicker": "Real applications",
     "projects.title": "Digital solutions for better learning",
-    "projects.intro": "My applications are built around a clear idea: turning learning into an engaging, visual and accessible experience. Through projects such as LexicAZ and MorS, I aim to create tools that help people learn languages, concepts and skills in a more intuitive and practical way.",
+    "projects.intro":
+      "My applications are built around a clear idea: turning learning into an engaging, visual and accessible experience. Through projects such as LexicAZ and MorS, I aim to create tools that help people learn languages, concepts and skills in a more intuitive and practical way.",
     "project.logoHint": "Tap the logo to view screenshots",
     "project.back": "Back to information",
 
     "lexicaz.label": "Educational app",
-    "lexicaz.description": "Mobile application for learning vocabulary in several languages through word comparison, progressive practice and mini-games.",
+    "lexicaz.description":
+      "Mobile application for learning vocabulary in several languages through word comparison, progressive practice and mini-games.",
     "lexicaz.li1": "Multilingual learning.",
     "lexicaz.li2": "Local database with SQLite.",
     "lexicaz.li3": "Selection mini-games.",
     "lexicaz.caption1": "LexicAZ home screen",
 
     "mors.label": "Interactive app",
-    "mors.description": "Application for learning Morse code through a visual node tree, progressive highlighting and short or long presses.",
+    "mors.description":
+      "Application for learning Morse code through a visual node tree, progressive highlighting and short or long presses.",
     "mors.li1": "Visual and interactive interface.",
     "mors.li2": "Input based on press duration.",
     "mors.li3": "Light and sound messages.",
@@ -79,14 +100,16 @@ const translations = {
 
     "future.label": "Portfolio in progress",
     "future.title": "Upcoming projects",
-    "future.description": "Space reserved for new applications, prototypes and experiments related to technology, learning, science and applied artificial intelligence.",
+    "future.description":
+      "Space reserved for new applications, prototypes and experiments related to technology, learning, science and applied artificial intelligence.",
     "future.li1": "Own prototypes.",
     "future.li2": "Educational applications.",
     "future.li3": "Learning-oriented projects.",
     "future.tech": "Apps · AI · Continuous learning",
 
     "tech.kicker": "Technical stack",
-    "tech.intro": "I work with and continue learning technologies focused on application development, interactive prototypes, databases and web publishing.",
+    "tech.intro":
+      "I work with and continue learning technologies focused on application development, interactive prototypes, databases and web publishing.",
     "tech.group1": "App development",
     "tech.ui": "Interactive UI",
     "tech.group2": "Data and logic",
@@ -97,7 +120,8 @@ const translations = {
     "tech.digitalEducation": "Digital education",
 
     "languages.kicker": "International communication",
-    "languages.intro": "Languages are part of how I understand technology and learning. They help me communicate in diverse environments and strengthen my interest in creating educational, accessible and multilingual applications.",
+    "languages.intro":
+      "Languages are part of how I understand technology and learning. They help me communicate in diverse environments and strengthen my interest in creating educational, accessible and multilingual applications.",
     "level.native": "Native",
     "level.high": "High",
     "level.medium": "Intermediate",
@@ -115,15 +139,27 @@ const translations = {
     "lang.german.desc": "Basic knowledge in progress.",
 
     "contact.title": "Let’s talk",
-    "contact.text": "I am open to professional opportunities, internships, collaborations and projects related to software development, educational applications, technology and applied artificial intelligence.",
+    "contact.text":
+      "I am open to professional opportunities, internships, collaborations and projects related to software development, educational applications, technology and applied artificial intelligence.",
     "contact.email": "Send email",
-    "contact.emailHref": "mailto:arroyoiba@gmail.com?subject=Contact%20from%20DeVArroyo",
-    "footer.text": "© 2026 Víctor Arroyo · DeVArroyo. Educational and interactive app development."
+    "contact.emailHref": "mailto:contacto@devarroyo.com?subject=Contact%20from%20Victor%20Arroyo",
+
+    "footer.text":
+      "© 2026 Víctor Arroyo · DeVArroyo. Educational and interactive app development.",
+
+    "cookies.banner.title": "Cookie settings",
+    "cookies.banner.text":
+      "This website uses technical storage to remember your language preference and, only if you accept it, Google Analytics 4 to measure visits and improve the website.",
+    "cookies.banner.link": "Read the Cookie Policy",
+    "cookies.banner.reject": "Reject analytics",
+    "cookies.banner.accept": "Accept analytics"
   },
 
   es: {
-    metaTitle: "DeVArroyo | Víctor Arroyo · Desarrollo de aplicaciones educativas",
-    metaDescription: "DeVArroyo, web profesional de Víctor Arroyo. Desarrollo de aplicaciones multiplataforma, software educativo, Unity, C#, SQL, tecnologías web, idiomas e inteligencia artificial aplicada.",
+    metaTitle: "Víctor Arroyo | Desarrollador de aplicaciones multiplataforma",
+    metaDescription:
+      "Web profesional de Víctor Arroyo. Desarrollo de aplicaciones multiplataforma, software educativo, Unity, C#, SQL, tecnologías web, idiomas e inteligencia artificial aplicada.",
+
     "aria.mainNav": "Navegación principal",
     "aria.home": "Ir al inicio",
     "aria.hideNav": "Ocultar menú de navegación",
@@ -133,11 +169,13 @@ const translations = {
     "aria.morsShots": "Ver capturas de MorS",
     "aria.nextLexicaz": "Ver siguiente captura de LexicAZ",
     "aria.nextMors": "Ver siguiente captura de MorS",
+
     "alt.logo": "Logo personal de Víctor Arroyo",
     "alt.lexicazLogo": "Logo o vista previa de LexicAZ",
     "alt.lexicazShot": "Captura de LexicAZ",
     "alt.morsLogo": "Logo o vista previa de MorS",
     "alt.morsShot": "Captura de MorS",
+
     "langButton.enAria": "View website in English",
     "langButton.esAria": "Ver la web en español",
     "langButton.enTitle": "English",
@@ -153,10 +191,14 @@ const translations = {
 
     "hero.tag": "Desarrollo multiplataforma · Educación digital · IA aplicada",
     "hero.title": "Aplicaciones que convierten tu aprendizaje en una experiencia",
-    "hero.subtitle": "Soy Víctor Arroyo, desarrollador de aplicaciones multiplataforma con interés en crear software educativo, interfaces interactivas y herramientas digitales que ayuden a aprender de forma más clara, práctica y accesible.",
-    "hero.text": "Me interesa unir programación, diseño de experiencia de usuario, lógica de aplicaciones, bases de datos e inteligencia artificial para construir proyectos útiles. A través de apps como LexicAZ y MorS desarrollo soluciones prácticas mientras sigo consolidando mis habilidades como programador en Unity, C#, SQL, desarrollo móvil y tecnologías web.",
+    "hero.subtitle":
+      "Soy Víctor Arroyo, desarrollador de aplicaciones multiplataforma con interés en crear software educativo, interfaces interactivas y herramientas digitales que ayuden a aprender de forma más clara, práctica y accesible.",
+    "hero.text":
+      "Me interesa unir programación, diseño de experiencia de usuario, lógica de aplicaciones, bases de datos e inteligencia artificial para construir proyectos útiles. A través de apps como LexicAZ y MorS desarrollo soluciones prácticas mientras sigo consolidando mis habilidades como programador en Unity, C#, SQL, desarrollo móvil y tecnologías web.",
+
     "chip.educationalApps": "Apps educativas",
     "chip.appliedAi": "IA aplicada",
+
     "button.viewApps": "Ver aplicaciones",
     "button.value": "Qué puedo aportar",
     "button.cv": "Descargar CV",
@@ -166,34 +208,44 @@ const translations = {
     "profile.tech": "tecnologías",
 
     "about.kicker": "Perfil profesional",
-    "about.p1": "Soy Víctor Arroyo, desarrollador de aplicaciones multiplataforma formado en DAM. Me interesa crear software útil, accesible y con una experiencia de usuario clara, especialmente en proyectos relacionados con aprendizaje, educación e inteligencia artificial.",
-    "about.p2": "Mi experiencia práctica se apoya en proyectos propios como LexicAZ, una app para aprender vocabulario multilingüe, y MorS, una aplicación interactiva para aprender código Morse mediante un sistema visual de nodos y pulsaciones.",
-    "about.p3": "Actualmente busco oportunidades como desarrollador donde pueda seguir aprendiendo, participar en proyectos reales y aportar una mirada práctica, curiosa y orientada a la mejora continua.",
+    "about.p1":
+      "Soy Víctor Arroyo, desarrollador de aplicaciones multiplataforma formado en DAM. Me interesa crear software útil, accesible y con una experiencia de usuario clara, especialmente en proyectos relacionados con aprendizaje, educación e inteligencia artificial.",
+    "about.p2":
+      "Mi experiencia práctica se apoya en proyectos propios como LexicAZ, una app para aprender vocabulario multilingüe, y MorS, una aplicación interactiva para aprender código Morse mediante un sistema visual de nodos y pulsaciones.",
+    "about.p3":
+      "Actualmente busco oportunidades como desarrollador donde pueda seguir aprendiendo, participar en proyectos reales y aportar una mirada práctica, curiosa y orientada a la mejora continua.",
 
     "value.kicker": "Valor profesional",
-    "value.intro": "Mi objetivo es crecer como programador creando soluciones que tengan una utilidad real: aplicaciones claras, interactivas y pensadas para que la tecnología facilite el aprendizaje.",
+    "value.intro":
+      "Mi objetivo es crecer como programador creando soluciones que tengan una utilidad real: aplicaciones claras, interactivas y pensadas para que la tecnología facilite el aprendizaje.",
     "value.card1.title": "Desarrollo de apps educativas",
-    "value.card1.text": "Diseño y desarrollo aplicaciones orientadas al aprendizaje, combinando interacción visual, lógica de aplicación y una experiencia sencilla para el usuario.",
+    "value.card1.text":
+      "Diseño y desarrollo aplicaciones orientadas al aprendizaje, combinando interacción visual, lógica de aplicación y una experiencia sencilla para el usuario.",
     "value.card2.title": "Prototipos funcionales",
-    "value.card2.text": "Transformo ideas en prototipos que permiten probar mecánicas, validar funcionalidades y convertir conceptos en productos digitales reales.",
+    "value.card2.text":
+      "Transformo ideas en prototipos que permiten probar mecánicas, validar funcionalidades y convertir conceptos en productos digitales reales.",
     "value.card3.title": "Aprendizaje e IA aplicada",
-    "value.card3.text": "Me interesa aplicar inteligencia artificial y diseño interactivo para crear herramientas más personalizadas, útiles y adaptadas a nuevas formas de aprender.",
+    "value.card3.text":
+      "Me interesa aplicar inteligencia artificial y diseño interactivo para crear herramientas más personalizadas, útiles y adaptadas a nuevas formas de aprender.",
 
     "projects.kicker": "Aplicaciones reales",
     "projects.title": "Soluciones digitales para aprender mejor",
-    "projects.intro": "Mis aplicaciones nacen con una idea clara: convertir el aprendizaje en una experiencia entretenida, visual y accesible. A través de proyectos como LexicAZ y MorS busco crear herramientas que ayuden a aprender idiomas, conceptos y habilidades de forma más intuitiva y práctica.",
+    "projects.intro":
+      "Mis aplicaciones nacen con una idea clara: convertir el aprendizaje en una experiencia entretenida, visual y accesible. A través de proyectos como LexicAZ y MorS busco crear herramientas que ayuden a aprender idiomas, conceptos y habilidades de forma más intuitiva y práctica.",
     "project.logoHint": "Toca el logo para ver capturas",
     "project.back": "Volver a la información",
 
     "lexicaz.label": "App educativa",
-    "lexicaz.description": "Aplicación móvil para aprender vocabulario en varios idiomas mediante comparación de palabras, práctica progresiva y minijuegos.",
+    "lexicaz.description":
+      "Aplicación móvil para aprender vocabulario en varios idiomas mediante comparación de palabras, práctica progresiva y minijuegos.",
     "lexicaz.li1": "Aprendizaje multilingüe.",
     "lexicaz.li2": "Base de datos local con SQLite.",
     "lexicaz.li3": "Minijuegos de selección.",
     "lexicaz.caption1": "Pantalla de inicio de LexicAZ",
 
     "mors.label": "App interactiva",
-    "mors.description": "Aplicación para aprender código Morse mediante un árbol visual de nodos, iluminación progresiva y pulsaciones cortas y largas.",
+    "mors.description":
+      "Aplicación para aprender código Morse mediante un árbol visual de nodos, iluminación progresiva y pulsaciones cortas y largas.",
     "mors.li1": "Interfaz visual e interactiva.",
     "mors.li2": "Entrada por tiempo de pulsación.",
     "mors.li3": "Mensajes de luz y sonido.",
@@ -201,14 +253,16 @@ const translations = {
 
     "future.label": "Portfolio en evolución",
     "future.title": "Próximos proyectos",
-    "future.description": "Espacio reservado para nuevas aplicaciones, prototipos y experimentos relacionados con tecnología, aprendizaje, ciencia e inteligencia artificial aplicada.",
+    "future.description":
+      "Espacio reservado para nuevas aplicaciones, prototipos y experimentos relacionados con tecnología, aprendizaje, ciencia e inteligencia artificial aplicada.",
     "future.li1": "Prototipos propios.",
     "future.li2": "Aplicaciones educativas.",
     "future.li3": "Proyectos orientados al aprendizaje.",
     "future.tech": "Apps · IA · Formación continua",
 
     "tech.kicker": "Stack técnico",
-    "tech.intro": "Trabajo y sigo formándome en tecnologías orientadas al desarrollo de aplicaciones, prototipos interactivos, bases de datos y publicación web.",
+    "tech.intro":
+      "Trabajo y sigo formándome en tecnologías orientadas al desarrollo de aplicaciones, prototipos interactivos, bases de datos y publicación web.",
     "tech.group1": "Desarrollo de apps",
     "tech.ui": "UI interactiva",
     "tech.group2": "Datos y lógica",
@@ -219,7 +273,8 @@ const translations = {
     "tech.digitalEducation": "Educación digital",
 
     "languages.kicker": "Comunicación internacional",
-    "languages.intro": "Los idiomas forman parte de mi forma de entender la tecnología y el aprendizaje. Me ayudan a comunicarme en entornos diversos y refuerzan mi interés por crear aplicaciones educativas, accesibles y multilingües.",
+    "languages.intro":
+      "Los idiomas forman parte de mi forma de entender la tecnología y el aprendizaje. Me ayudan a comunicarme en entornos diversos y refuerzan mi interés por crear aplicaciones educativas, accesibles y multilingües.",
     "level.native": "Nativo",
     "level.high": "Alto",
     "level.medium": "Medio",
@@ -237,10 +292,20 @@ const translations = {
     "lang.german.desc": "Conocimientos básicos en progreso.",
 
     "contact.title": "Hablemos",
-    "contact.text": "Estoy abierto a oportunidades profesionales, prácticas, colaboraciones y proyectos relacionados con desarrollo de software, aplicaciones educativas, tecnología e inteligencia artificial aplicada.",
+    "contact.text":
+      "Estoy abierto a oportunidades profesionales, prácticas, colaboraciones y proyectos relacionados con desarrollo de software, aplicaciones educativas, tecnología e inteligencia artificial aplicada.",
     "contact.email": "Enviar email",
-    "contact.emailHref": "mailto:arroyoiba@gmail.com?subject=Contacto%20desde%20DeVArroyo",
-    "footer.text": "© 2026 Víctor Arroyo · DeVArroyo. Desarrollo de aplicaciones educativas e interactivas."
+    "contact.emailHref": "mailto:contacto@devarroyo.com?subject=Contacto%20desde%20Victor%20Arroyo",
+
+    "footer.text":
+      "© 2026 Víctor Arroyo · DeVArroyo. Desarrollo de aplicaciones educativas e interactivas.",
+
+    "cookies.banner.title": "Configuración de cookies",
+    "cookies.banner.text":
+      "Esta web utiliza almacenamiento técnico para recordar tu preferencia de idioma y, solo si lo aceptas, Google Analytics 4 para medir visitas y mejorar la web.",
+    "cookies.banner.link": "Leer la Política de Cookies",
+    "cookies.banner.reject": "Rechazar analítica",
+    "cookies.banner.accept": "Aceptar analítica"
   }
 };
 
@@ -386,7 +451,9 @@ function setLanguage(language) {
   });
 
   document
-    .querySelectorAll("[data-i18n-aria-label], [data-i18n-alt], [data-i18n-title], [data-i18n-href], [data-i18n-data-screenshot-hint]")
+    .querySelectorAll(
+      "[data-i18n-aria-label], [data-i18n-alt], [data-i18n-title], [data-i18n-href], [data-i18n-data-screenshot-hint]"
+    )
     .forEach((element) => {
       translateElementAttributes(element, selectedLanguage);
     });
@@ -402,7 +469,10 @@ function setLanguage(language) {
 
   if (navbar && toggleButton) {
     const isHidden = navbar.classList.contains("navbar-hidden");
-    toggleButton.setAttribute("aria-label", isHidden ? dictionary["aria.showNav"] : dictionary["aria.hideNav"]);
+    toggleButton.setAttribute(
+      "aria-label",
+      isHidden ? dictionary["aria.showNav"] : dictionary["aria.hideNav"]
+    );
   }
 
   document.querySelectorAll(".flip-card[data-project]").forEach((card) => {
@@ -551,7 +621,69 @@ function setupLanguageSwitcher() {
   });
 }
 
+function loadGoogleAnalytics() {
+  if (window.gaHasLoaded) {
+    return;
+  }
+
+  window.gaHasLoaded = true;
+
+  const googleTagScript = document.createElement("script");
+  googleTagScript.async = true;
+  googleTagScript.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+
+  document.head.appendChild(googleTagScript);
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+
+  window.gtag = gtag;
+
+  gtag("js", new Date());
+  gtag("config", GA_MEASUREMENT_ID, {
+    anonymize_ip: true
+  });
+}
+
+function setupCookieBanner() {
+  const banner = document.getElementById("cookieBanner");
+  const acceptButton = document.getElementById("acceptAnalytics");
+  const rejectButton = document.getElementById("rejectAnalytics");
+
+  if (!banner || !acceptButton || !rejectButton) {
+    return;
+  }
+
+  const consent = localStorage.getItem(COOKIE_CONSENT_KEY);
+
+  if (consent === "accepted") {
+    loadGoogleAnalytics();
+    return;
+  }
+
+  if (consent === "rejected") {
+    return;
+  }
+
+  banner.hidden = false;
+
+  acceptButton.addEventListener("click", () => {
+    localStorage.setItem(COOKIE_CONSENT_KEY, "accepted");
+    banner.hidden = true;
+    loadGoogleAnalytics();
+  });
+
+  rejectButton.addEventListener("click", () => {
+    localStorage.setItem(COOKIE_CONSENT_KEY, "rejected");
+    banner.hidden = true;
+  });
+}
+
 setupFlipCards();
 setupNavbarToggle();
 setupLanguageSwitcher();
+setupCookieBanner();
 setLanguage(getCurrentLanguage());
