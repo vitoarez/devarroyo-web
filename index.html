@@ -5,32 +5,39 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <meta content="Professional website of Víctor Arroyo. Cross-platform app development, educational software, Unity, C#, SQL, web technologies, languages and applied artificial intelligence." name="description"/>
+
   <title>Víctor Arroyo | Cross-platform app developer</title>
+
+  <link href="assets/icons/favicon.ico" rel="icon" sizes="any"/>
+  <link href="assets/icons/favicon.png" rel="icon" type="image/png"/>
+  <link href="assets/icons/apple-touch-icon.png" rel="apple-touch-icon"/>
   <link href="styles.css" rel="stylesheet"/>
 </head>
 
 <body>
   <header class="hero">
     <nav aria-label="Main navigation" class="navbar" data-i18n-aria-label="aria.mainNav">
-      <a aria-label="Go to home" class="logo" data-i18n-aria-label="aria.home" href="#inicio">DeVArroyo</a>
+      <a aria-label="Go to home" class="logo logo-link" data-i18n-aria-label="aria.home" href="#inicio">
+        <img src="assets/icons/logo-nav.png" alt="Víctor Arroyo logo" class="nav-logo"/>
+      </a>
 
       <ul class="nav-links">
-        <li><a data-i18n="nav.about" href="#sobre-mi">About me</a></li>
+        <li><a data-i18n="nav.about" href="#sobre-mi">Víctor Arroyo</a></li>
         <li><a data-i18n="nav.value" href="#aportacion">What I offer</a></li>
         <li><a data-i18n="nav.apps" href="#proyectos">Apps</a></li>
-        <li><a data-i18n="nav.tech" href="#tecnologias">Technologies</a></li>
+        <li><a data-i18n="nav.tech" href="#tecnologias">Skills</a></li>
         <li><a data-i18n="nav.languages" href="#idiomas">Languages</a></li>
         <li><a data-i18n="nav.contact" href="#contacto">Contact</a></li>
       </ul>
 
       <div aria-label="Language selector" class="language-switcher">
         <button aria-label="View website in English" class="language-button is-active" data-i18n-aria-label="langButton.enAria" data-i18n-title="langButton.enTitle" data-lang="en" title="English" type="button">
-          <span aria-hidden="true" class="flag">🇬🇧</span>
+          <img src="assets/icons/flag-en.svg" alt="" aria-hidden="true" class="flag-image"/>
           <span class="language-code">EN</span>
         </button>
 
         <button aria-label="Ver la web en español" class="language-button" data-i18n-aria-label="langButton.esAria" data-i18n-title="langButton.esTitle" data-lang="es" title="Español" type="button">
-          <span aria-hidden="true" class="flag">🇪🇸</span>
+          <img src="assets/icons/flag-es.svg" alt="" aria-hidden="true" class="flag-image"/>
           <span class="language-code">ES</span>
         </button>
       </div>
@@ -104,7 +111,7 @@
   <main>
     <section class="section section-soft" id="sobre-mi">
       <div class="section-kicker" data-i18n="about.kicker">Professional profile</div>
-      <h2 data-i18n="nav.about">About me</h2>
+      <h2 data-i18n="about.title">Víctor Arroyo</h2>
 
       <div class="text-grid">
         <p data-i18n="about.p1">
@@ -287,7 +294,7 @@
       <div class="section-heading">
         <div>
           <div class="section-kicker" data-i18n="tech.kicker">Technical stack</div>
-          <h2 data-i18n="nav.tech">Technologies</h2>
+          <h2 data-i18n="tech.skills">Skills</h2>
           <p data-i18n="tech.intro">
             I work with and continue learning technologies focused on application development, interactive prototypes, databases and web publishing.
           </p>
@@ -399,12 +406,12 @@
         <div class="contact-links">
           <a class="btn primary" data-i18n="contact.email" data-i18n-href="contact.emailHref" href="mailto:contacto@devarroyo.com?subject=Contact%20from%20Victor%20Arroyo">Send email</a>
 
-          <a class="btn secondary" href="https://www.linkedin.com/in/victor-arez-dev" rel="noopener noreferrer" target="_blank">
-            LinkedIn
+          <a class="social-icon-link" href="https://www.linkedin.com/in/victor-arez-dev" rel="noopener noreferrer" target="_blank" aria-label="LinkedIn">
+            <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="social-icon"/>
           </a>
 
-          <a class="btn secondary" href="https://github.com/vitoarez" rel="noopener noreferrer" target="_blank">
-            GitHub
+          <a class="social-icon-link" href="https://github.com/vitoarez" rel="noopener noreferrer" target="_blank" aria-label="GitHub">
+            <img src="assets/icons/github.svg" alt="GitHub" class="social-icon"/>
           </a>
         </div>
       </div>

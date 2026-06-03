@@ -1879,3 +1879,62 @@ footer {
     padding: 28px 22px;
   }
 }
+
+/* Brand and icon refinements */
+.logo-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.nav-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  display: block;
+}
+
+.flag-image {
+  width: 24px;
+  height: 16px;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.12);
+}
+
+.social-icon-link {
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.social-icon-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.18);
+}
+
+.social-icon {
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+
+@media (max-width: 720px) {
+  .nav-logo {
+    width: 44px;
+    height: 44px;
+  }
+
+  .social-icon-link {
+    width: 46px;
+    height: 46px;
+  }
+}

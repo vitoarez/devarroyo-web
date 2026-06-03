@@ -29,10 +29,12 @@ const translations = {
     "langButton.esTitle": "Español",
     "screenshot.hint": "Tap the screenshot to continue",
 
-    "nav.about": "About me",
+    "nav.about": "Víctor Arroyo",
+    "about.title": "Víctor Arroyo",
     "nav.value": "What I offer",
     "nav.apps": "Apps",
     "nav.tech": "Technologies",
+    "tech.skills": "Skills",
     "nav.languages": "Languages",
     "nav.contact": "Contact",
 
@@ -182,10 +184,12 @@ const translations = {
     "langButton.esTitle": "Español",
     "screenshot.hint": "Toca la captura para continuar",
 
-    "nav.about": "Sobre mí",
+    "nav.about": "Víctor Arroyo",
+    "about.title": "Víctor Arroyo",
     "nav.value": "Qué aporto",
     "nav.apps": "Apps",
     "nav.tech": "Tecnologías",
+    "tech.skills": "Habilidades",
     "nav.languages": "Idiomas",
     "nav.contact": "Contacto",
 
